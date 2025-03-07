@@ -7,6 +7,7 @@ jobs:
     runs-on: ubuntu-latest
   
     steps:
-     
+      - name: Darwin
+        uses: actions/checkout@v2
       - name: listar archivos
         run: ls -la
